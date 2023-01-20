@@ -2,37 +2,55 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+  height:100vh;
+  background-color: rgb(13, 44, 56);
+  color: rgb(184, 184, 184)
+}
+.profilepic{
+  width: 40vh
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.projects{
+  height: 100vh;
+  
+  background-color: rgb(40, 77, 92);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.project{
+  width: 25vw;
+  height: 40vh;
+  opacity: 90%;
 }
 
-.App-link {
-  color: #61dafb;
+/* ---------about-------- */
+#about{
+  background-color: rgb(66, 102, 136);
+  height: 100vh;
+}
+.skill{
+  width: 20vw;
+}
+.skill img{
+  height: 10vh;
+  width: 10vh;
+}
+.skil .card-body{
+ 
+}
+.progress-bar{
+  width: 75%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ---------contact-------- */
+
+.contact{
+  height: 40vh;
+  background-color: rgb(13, 44, 56);
+  background-image: url('../public/Assets/dguy.png');
+  background-repeat: no-repeat;
+}
+.icon{
+  height: 8vh;
 }
