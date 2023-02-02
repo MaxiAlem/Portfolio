@@ -14,7 +14,7 @@ const About = () => {
                   familiarizado con React en Frontend y node en back,
                   de formacion autodidcta, something something
                 </p>
-                <img src='../assets/about.png' alt='code picture' className='about-img'/>
+                <img src='../assets/about.png' alt='coding' className='about-img'/>
     </div>
             
         <div className='col-sm-12 col-md-6 '>
