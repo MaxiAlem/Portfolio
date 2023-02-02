@@ -7,7 +7,7 @@ const Contact = () => {
     window.open('../assets/CV_Alem_Maxi2023.pdf')
   }
   return (
-    <div className='contact'>
+    <div id='contact' className=''>
        <div className='row container-fluid'>
         <div className='col-sm-6 col-lg-7 d-flex justify-content-center  '>
         
@@ -16,7 +16,7 @@ const Contact = () => {
         <div className='col-6 col-lg-5 text-light pt-3'>
           <p><a href="https://www.linkedin.com/in/maxialem90/" target="_blank"rel="noreferrer" className="link-light">
           <img className='icon'
-         alt='linkedin' src='/linkedin.png'></img></a></p>
+         alt='linkedin' src='../assets/linkedin.png'></img></a></p>
 
           <p><a href="mailto:maerc.maxi@gmail.com" target="_blank"rel="noreferrer" className="link-light">
           <img className='icon'
