@@ -19,7 +19,7 @@ const Main = () => {
          alt='foto de perfil' src='../assets/profile.jpg'/>
          <div className='pt-1 display-6'>
           <p className=''>Maximiliano Alem</p>
-          <p><img src='../assets/location.svg' className='locationsvg'/> Rio Negro - Argentina</p>
+          <p><img src='../assets/location.svg' alt='location' className='locationsvg'/> Rio Negro - Argentina</p>
          </div>
          </div>
          
