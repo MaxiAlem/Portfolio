@@ -62,6 +62,7 @@
     opacity: 70%;
     margin-left: 3vw !important;
   } 
+ 
 }
 .skill{
   width: auto;
@@ -84,5 +85,6 @@
   background-repeat: no-repeat;
 }
 .icon{
-  height: 8vh;
+  height: 9vh;
+  width: 9vh;
 }

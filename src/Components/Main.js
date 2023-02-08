@@ -2,12 +2,14 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div id='main' className=''>
+    <div id='main' className='text-light bg-gradient'>
              <div className='row container-fluid py-5 mx-auto'>
-        <div className='col-sm-12 col-lg-7 display-1 text-center'>
-          <p>HI!</p>
+        <div className='col-sm-12 col-lg-7 text-center'>
+          <div className='display-2'>
+            <p>HI!</p>
           <p>i'm Web Dev</p>
-          <p className='blockquote-footer display-5'>or i try</p>
+            </div>
+          
           <div className='display-6'>
             <p>Soy un mugroso dev web mas que no sabe hacer otra cosa que frontend y
               tan pete que no sale de react. deme dinero porfavor

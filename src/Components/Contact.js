@@ -14,18 +14,20 @@ const Contact = () => {
           <button type="button" onClick={()=>{downlCV()}} className="btn btn-outline-light btn-lg mx-auto my-auto ">Download CV</button>  
           </div>
           
-        <div className='col-sm-6 col-lg-5 text-light pt-3 row container-fluid'>
-          <a href="https://www.linkedin.com/in/maxialem90/" target="_blank"rel="noreferrer" className="link-light py-2">
-          <img className='icon'
-         alt='linkedin' src='../assets/linkedin.png'></img></a>
+        <div className='col-sm-6 col-lg-5 text-light pt-3 contact-icons'>
+              <div className='d-grid gap-3 justify-content-end pe-5'>
+              <a href="https://www.linkedin.com/in/maxialem90/" target="_blank"rel="noreferrer" className="link-light  row">
+                <img className='icon'
+                alt='linkedin' src='../assets/linkedin.png'></img></a>
 
-        <a href="mailto:maerc.maxi@gmail.com" target="_blank"rel="noreferrer" className="link-light py-2">
-          <img className='icon'
-         alt='email' src='../assets/email.png'></img></a>
+            <a href="mailto:maerc.maxi@gmail.com" target="_blank"rel="noreferrer" className="link-light  row">
+              <img className='icon '
+              alt='email' src='../assets/email.png'></img></a>
 
-         <a href="https://github.com/MaxiAlem" target="_blank"rel="noreferrer"  className="link-light py-2">
-          <img className='icon'
-         alt='github' src='../assets/gh.png'></img> </a>
+            <a href="https://github.com/MaxiAlem" target="_blank"rel="noreferrer"  className="link-light  row ">
+              <img className='icon '
+              alt='github' src='../assets/gh.png'></img> </a>
+            </div>
          </div>
         </div>
     </div>
