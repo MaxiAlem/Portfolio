@@ -1,11 +1,9 @@
 .App {
   text-align: center;
 }
-.navbar{
-  max-height: 10vh;
-}
+
 #main{
-  height:100vh;
+  height:100vh; 
   background-color: rgb(7, 70, 95);
   color: rgb(184, 184, 184)
 }
@@ -42,10 +40,7 @@
   height: 10vw;
 }
 @media (orientation: portrait) {
-  .navbar p{
-    font-size: 5vw !important;
-  }
-  
+
   .icon{
     width: 5vw;
     
