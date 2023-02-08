@@ -13,7 +13,7 @@ const Nav = () => {
 
   <div class="container-fluid">
 
-    <a class="navbar-brand text-light" href="#">
+    <a class="navbar-brand text-light" href="#main">
       {'(☞ﾟヮﾟ)☞ '}
       </a>
 

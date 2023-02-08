@@ -2,7 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div className='main'>
+    <div id='main' className=''>
              <div className='row container-fluid py-5 mx-auto'>
         <div className='col-sm-12 col-lg-7 display-1 text-center'>
           <p>HI!</p>
