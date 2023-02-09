@@ -17,7 +17,9 @@ const Projects = () => {
                 <h5 className="card-title">{name}</h5>
                 {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p className="card-text">que lo que hace</p> */}
-               
+               <div>
+               <img src='../assets/about.png' alt='coding' className=' project-img'/>
+               </div>
                <div>
                 <a href={url} target="_blank"rel="noreferrer" className=" btn btn-primary">Demo</a>
                 

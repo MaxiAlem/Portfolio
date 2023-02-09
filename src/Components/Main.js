@@ -11,8 +11,7 @@ const Main = () => {
             </div>
           
           <div className='display-6'>
-            <p>Soy un mugroso dev web mas que no sabe hacer otra cosa que frontend y
-              tan pete que no sale de react. deme dinero porfavor
+            <p>Autodidacta, curioso, something something 
             </p>
           </div>
           </div>

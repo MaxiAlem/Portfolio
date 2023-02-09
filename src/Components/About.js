@@ -10,9 +10,9 @@ const About = () => {
       
         <div className='aboutme my-5 col-sm-12 col-md-6 display-6'>
                 
-                <p>Mi nombre es Maximiliano Alem soy dessarrollador Web 
-                  familiarizado con React en Frontend y node en back,
-                  de formacion autodidcta, something something
+                <p>Mi nombre es Maximiliano Alem soy desarrollador Web 
+                  familiarizado con React en Frontend y Node en back,
+                  de formacion autodidcta.
                 </p>
                 <img src='../assets/about.png' alt='coding' className='about-img'/>
     </div>
@@ -21,9 +21,9 @@ const About = () => {
           <h1 className='mt-5 display-3'><strong>SKILLS</strong></h1>
           <div className='container-fluid row'>
               {skills.map(skill=>{
-                const {src} = skill;
+                const {src,lvl} = skill;
                 return(
-                <Skillcard src = {src}/>
+                <Skillcard src = {src} lvl = {lvl} />
                 )
               })}
           </div>
