@@ -12,22 +12,25 @@ const Projects = () => {
         {webs.map(web =>{
               const { name, url, github} = web
               return (  
-                <div className="card project mx-auto my-2 col-sm-8 col-md-5 border border-2 rounded-3 border-dark rounded shadow" >
-                <div className="card-body">
-                <h5 className="card-title">{name}</h5>
-                {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p className="card-text">que lo que hace</p> */}
-               <div>
-               <img src='../assets/about.png' alt='coding' className=' project-img'/>
-               </div>
-               <div>
-                <a href={url} target="_blank"rel="noreferrer" className=" btn btn-primary">Demo</a>
-                
-                <a href={github} target="_blank"rel="noreferrer" className=" btn btn-primary">Repo</a>
-                </div>
-                 
-                 </div>
-              </div>)
+                <div className="card  bg-dark text-white project mx-auto my-2 col-sm-8 col-md-5 border border-2 rounded-3 border-dark rounded shadow" >
+                  <img className="card-img" src="../assets/about.png" alt="Card image"/>
+
+                  <div class="card-img-overlay">
+                  <h5 class="card-title">{name}</h5>
+                <div>
+                                    <a href={url} target="_blank"rel="noreferrer" className=" btn btn-primary">Demo</a>
+                              
+                                    <a href={github} target="_blank"rel="noreferrer" className=" btn btn-primary">Repo</a>
+                                  </div>
+              </div>
+                    
+              
+                    {/* <div>
+                      <img src='' alt='coding' className=' project-img'/>
+                    </div> */}
+                    
+                   </div>
+                )
             })}
       </div>
         
@@ -38,4 +41,5 @@ const Projects = () => {
 }
 
 export default Projects
+
 

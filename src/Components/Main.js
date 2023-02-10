@@ -13,6 +13,7 @@ const Main = () => {
           <div className='display-6'>
             <p>Autodidacta, curioso, something something 
             </p>
+            
           </div>
           </div>
         <div className='col-sm-12 col-lg-5  text-center'>
@@ -20,7 +21,7 @@ const Main = () => {
          alt='foto de perfil' src='../assets/profile.jpg'/>
          <div className='pt-1 display-6'>
           <p className=''>Maximiliano Alem</p>
-          <p><img src='../assets/location.svg' alt='location' className='locationsvg'/> Rio Negro - Argentina</p>
+          <p><i class="bi bi-pin-map-fill"/> Rio Negro - Argentina</p>
          </div>
          </div>
          
