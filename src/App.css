@@ -5,6 +5,10 @@
 .nav{
   font-size:1.5em;
 }
+.iconos{
+  font-size: 1.5em;
+}
+
 #main{
   height:100vh; 
   background-color: rgb(7, 70, 95);
@@ -29,9 +33,10 @@
   height: 30vh;
   opacity: 90%;
 } 
-.project-img{
-  height:10vh;
-  width: auto;
+.card-img{
+
+  object-fit: fill;
+  overflow: hidden;
 }
 
 /* ---------about-------- */
@@ -90,7 +95,4 @@
 .icon{
   height: 9vh;
   width: 9vh;
-}
-.iconos{
-  font-size: 1.5em;
 }

@@ -21,7 +21,7 @@ const Main = () => {
          alt='foto de perfil' src='../assets/profile.jpg'/>
          <div className='pt-1 display-6'>
           <p className=''>Maximiliano Alem</p>
-          <p><i class="bi bi-pin-map-fill"/> Rio Negro - Argentina</p>
+          <p><i className="bi bi-pin-map-fill"/> Rio Negro - Argentina</p>
          </div>
          </div>
          

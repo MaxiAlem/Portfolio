@@ -3,21 +3,29 @@ const webs = [
     'name':'Ephemerigames',
     'url':'https://ephemerigames.vercel.app/', 
     'github':'https://github.com/MaxiAlem/ephemerigames',
+    'src':'../assets/ephemeri.png',
+
     },
     {'id': 1,
     'name':'VirtualCheems',
     'url':'https://inquisitive-concha-76fed7.netlify.app/', 
     'github':'https://github.com/MaxiAlem/cheems-virtual',
+    'src':'../assets/virtualcheems.png',
+
     },
     {'id': 2,
     'name':'State your Might',
     'url':'https://gorgeous-beijinho-59fdba.netlify.app/', 
     'github':'https://github.com/MaxiAlem/state-your-might',
+    'src':'../assets/state.png',
+
     },
     {'id': 3,
     'name':'Pokemon Quiz',
     'url':'https://timely-torrone-68fc68.netlify.app/', 
     'github':'https://github.com/MaxiAlem/whos-that-pokemon-challenge',
+    'src':'../assets/pokemon.png',
+
     },
 ]
 
