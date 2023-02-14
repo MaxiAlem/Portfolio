@@ -7,7 +7,7 @@ const Projects = () => {
   
   return (
     <div id='projects' className=' pt-1 column'>
-      <div><h1 className='my-5 display-3 text-light'><strong>Some of my Projects</strong></h1></div>
+      <div><h1 className='my-5 display-3 text-light text-uppercase text-decoration-underline'><strong>Algunos de mis proyectos</strong></h1></div>
       <div className='container-fluid row'>
         {webs.map(web =>{
               const { name, url, github,src} = web
@@ -16,10 +16,10 @@ const Projects = () => {
                   <img className="card-img" src={src} alt={name}/>
 
                   <div className="card-img-overlay bg-dark bg-opacity-50 ">
-                  <div class="position-absolute bottom-0 start-50 translate-middle-x mb-2 ">
+                  <div className="position-absolute bottom-0 start-50 translate-middle-x mb-2 ">
                     <h5 className="card-title">{name}</h5>
-                    <a href={url} target="_blank"rel="noreferrer" className="mx-2 btn btn-primary">Demo</a>          
-                    <a href={github} target="_blank"rel="noreferrer" className=" mx-2 btn btn-secondary">Repo</a>
+                    <a href={url} target="_blank"rel="noreferrer" className="mx-2 btn btn-primary"><i className="bi bi-window"/> Demo</a>          
+                    <a href={github} target="_blank"rel="noreferrer" className=" mx-2 btn btn-secondary"><i className='bi bi-github'/> Repo</a>
                   </div>
                   </div>
                 </div>

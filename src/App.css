@@ -11,8 +11,7 @@
 
 #main{
   height:100vh; 
-  background-color: rgb(7, 70, 95);
-  color: rgb(184, 184, 184)
+  background-color: #0A2647;
 }
 .profilepic{
   width: 40vh
@@ -24,7 +23,7 @@
 #projects{
   height: 100vh;
   
-  background-color: rgb(7, 77, 92);
+  background-color: #144272;
 }
 
 
@@ -41,7 +40,7 @@
 
 /* ---------about-------- */
 #about{
-  background-color: rgb(4, 55, 80);
+  background-color: #205295;
   height: 100vh;
 }
 .about-img{
@@ -70,6 +69,10 @@
     opacity: 70%;
     margin-left: 3vw !important;
   } 
+  #contact-icons {
+    display: flex !important;
+    flex-direction: row !important;
+  }
  
 }
 .skill{
@@ -88,11 +91,10 @@
 
 #contact{
   height: 40vh;
-  background-color: rgb(13, 44, 56);
+  background-color: #0A2647;
   background-image: url('../public/Assets/dguy.png');
   background-repeat: no-repeat;
 }
-.icon{
-  height: 9vh;
-  width: 9vh;
-}
+  #contact .iconos{
+    font-size: 2.5em;
+  }

@@ -18,7 +18,7 @@ const About = () => {
     </div>
             
         <div className='col-sm-12 col-md-6 '>
-          <h1 className='mt-5 display-3'><strong>SKILLS</strong></h1>
+          <h1 className='mt-5 display-3 text-uppercase text-decoration-underline'><strong>SKILLS</strong></h1>
           <div className='container-fluid row'>
               {skills.map(skill=>{
                 const {src,lvl} = skill;

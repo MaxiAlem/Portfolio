@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <div id='main' className='text-light bg-gradient'>
              <div className='row container-fluid py-5 mx-auto'>
-        <div className='col-sm-12 col-lg-7 text-center'>
+        <div className='col-sm-12 col-lg-7 text-center my-auto'>
           <div className='display-2'>
             <p>HI!</p>
           <p>i'm Web Dev</p>
