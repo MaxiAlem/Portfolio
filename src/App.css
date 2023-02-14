@@ -90,10 +90,11 @@
 /* ---------contact-------- */
 
 #contact{
-  height: 40vh;
+  height: 30vh;
   background-color: #0A2647;
   background-image: url('../public/Assets/dguy.png');
   background-repeat: no-repeat;
+  background-size: contain;
 }
   #contact .iconos{
     font-size: 2.5em;
