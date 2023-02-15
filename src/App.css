@@ -20,6 +20,11 @@
   height: 2rem;
 }
 
+.skillcard{
+  height: 20vh;
+  width: 20vh;
+}
+
 #projects{
   height: 100vh;
   
