@@ -6,15 +6,15 @@ const Main = () => {
              <div className='row container-fluid py-5 mx-auto'>
         <div className='col-sm-12 col-lg-7 text-center my-auto'>
           <div className='display-2'>
-            <p>HI!</p>
-          <p>i'm Web Dev</p>
+            <p>Hola!</p>
+          <p>Soy Web Dev</p>
             </div>
           
-          <div className='display-6'>
+          {/* <div className='display-6'>
             <p>Autodidacta, curioso, something something 
             </p>
             
-          </div>
+          </div> */}
           </div>
         <div className='col-sm-12 col-lg-5  text-center'>
           <img className='profilepic rounded-circle border border-white p-1'

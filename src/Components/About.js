@@ -10,7 +10,7 @@ const About = () => {
       
         <div className='aboutme my-5 col-sm-12 col-md-6 display-6'>
                 
-                <p>Mi nombre es Maximiliano Alem soy desarrollador Web 
+                <p>Mi nombre es Maximiliano soy desarrollador Web 
                   familiarizado con React en Frontend y Node en back,
                   de formacion autodidcta.
                 </p>
