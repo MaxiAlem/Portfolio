@@ -6,8 +6,8 @@ const Skillcard = ({src,lvl,name}) => {
     
   return (
 
-              <div className="card rounded rounded-circle skillcard px-2 " >
-                  <img className="card-img" src={src} alt={name}
+              <div className="card rounded rounded-5 skillcard m-2 p-1 bg-light bg-opacity-50" >
+                  <img className="card-img mx-auto" src={src} alt={name}
                   onMouseEnter={() => setShow(false)}
                   onMouseLeave={() => setShow(true)}/>
 
