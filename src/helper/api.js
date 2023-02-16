@@ -54,6 +54,15 @@ const skills =[
     {'name':'python',
     'src':'../assets/python.svg',
     'lvl':30},
+    {'name':'sass',
+    'src':'../assets/sass.svg',
+    'lvl':20},
+    {'name':'mysql',
+    'src':'../assets/mysql.svg',
+    'lvl':30},
+    {'name':'git',
+    'src':'../assets/git.svg',
+    'lvl':40},
 
 ]
 

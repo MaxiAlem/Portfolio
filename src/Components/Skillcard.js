@@ -11,8 +11,8 @@ const Skillcard = ({src,lvl,name}) => {
                   onMouseEnter={() => setShow(false)}
                   onMouseLeave={() => setShow(true)}/>
 
-                  <div className="" hidden={show}>
-                  <ProgressBar now={lvl}  />
+                  <div  hidden={show}>
+                  <ProgressBar className='progressbar'  now={lvl} label={` ${lvl/10}/10`} animated />
         
                   </div>
                 </div>
